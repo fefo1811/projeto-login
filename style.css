@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+	--cor-primaria: #74a387;
+	--cor-secundaria: #ffffff;
+	--cor-terciaria: #4a9a64;
+
+	--fonte-primaria: "Quicksand", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--cor-primaria) !important;
+	min-height: 100vh;
+	font-family: var(--fonte-primaria);
+}
+
+.container {
+	display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.form-container {
+	background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    height: 31.25rem;
+    width: 31.25rem;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+
+    box-shadow: 10px 5px 5px black;	
+}
+
+.input-container {
+	display: grid;
+    row-gap: 30px;
+}
+
+.input-dados {
+	display: grid;
+}
+
+.input-dados > input {
+	width: 17.5rem;
+    height: 1.8rem;
+    padding-left: 5px;
+
+    font-size: 18px;
+}
+
+.acessar {
+	background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 20px;
+    cursor: pointer;
+	width: 40%;
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+.acessar:hover {
+	background-color: #90ee90;
+}
