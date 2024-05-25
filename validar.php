@@ -5,7 +5,7 @@ $usuarioAutenticado = false;
 
 
 
-if($_POST['email'] === $usuarioMaster['email_master'] && $_POST['senha'] === $usuarioMaster['senha_master']) {
+if($_POST['email'] == $usuarioMaster['email_master'] && $_POST['senha'] == $usuarioMaster['senha_master']) {
 	$usuarioAutenticado = true;
 }
 

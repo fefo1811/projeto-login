@@ -1,22 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 :root {
-	--cor-primaria: #74a387;
 	--cor-secundaria: #ffffff;
 	--cor-terciaria: #4a9a64;
 
-	--fonte-primaria: "Quicksand", sans-serif;
+	/* --fonte-primaria: "Quicksand", sans-serif; */
 }
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	background-color: var(--cor-primaria) !important;
-	min-height: 100vh;
-	font-family: var(--fonte-primaria);
 }
 
 .container {
